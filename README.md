@@ -17,6 +17,7 @@
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-Backend-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-Frontend-42B883?style=flat-square&logo=vuedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Frontend-B73BFE?style=flat-square&logo=vite&logoColor=white)
 ![Element Plus](https://img.shields.io/badge/Element%20Plus-UI-409EFF?style=flat-square&logo=github&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-LLM-000000?style=flat-square&logo=ollama&logoColor=white)
