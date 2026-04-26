@@ -73,7 +73,7 @@ java -jar app.jar --spring.config.location=[application.properties文件路径]
 ```
 - 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-springboot/releases) ,执行以下操作:
 
-将文件复制到 `ikaros-springboot\src\main\resources\` 覆盖原本存在的 ` application.properties` 文件,然后执行以下命令
+将文件复制到 `ikaros-springboot\src\main\resources\` 覆盖原本存在的 ` application.properties` 文件,然后在项目根目录处执行以下命令
 
 ```bash
 mvn spring-boot:run
