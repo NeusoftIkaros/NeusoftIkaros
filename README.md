@@ -4,9 +4,11 @@ The main repo for NeusoftIkaros.
 NeusoftIkaros的主要仓库。
 
 During the internship, a knowledge base system titled “Neusoft AI Assistant” was developed using a front-end and back-end separation architecture. The system is built with Spring Boot and Vue.js, and uses Element Plus as the UI framework.
+
+在实习期间以“东软AI助手”为主题开发的知识库，采用前后端分离架构实现，基于 SpringBoot 与 Vue.js，采用 Element Plus 作为 UI 框架。
+
 The system integrates a local large language model (qwen3:4b) through Ollama, enabling local AI-powered question answering capabilities. It supports user registration and login, session management, and adjustable LLM response tone switching.
 
-在实习期间以“东软AI助手”为主题开发的知识库，采用前后端分离架构实现，基于 SpringBoot 与 Vue.js，采用 Element Plus 作为 UI 框架
 通过 ollama 接入本地大模型 qwen3:4b，支持登录注册、会话管理及大模型语气切换。
 
 ---
