@@ -64,7 +64,7 @@ ollama serve
 ```bash
 curl -L -o application.properties.example https://raw.githubusercontent.com/NeusoftIkaros/ikaros-springboot/main/application.properties.example
 ```
-根据本地的实际环境修改配置，改名为 `application.properties`，然后继续运行
+根据本地的实际环境修改配置，重命名文件为 `application.properties`，确保该文件与 `.jar` 文件处于同一目录后继续运行
 ```bash
 java -jar ikaros-springboot-0.0.1-SNAPSHOT.jar --spring.config.location=application.properties
 ```
