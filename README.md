@@ -24,7 +24,6 @@ NeusoftIkaros的主要仓库。
 
 说明: 
 - 如果你使用 GitHub Release 中已经打包好的后端 `jar`，通常不需要再单独下载 Maven 依赖
-- 如果你使用 GitHub Release 中已经打包好的前端 `dist`，通常不需要再执行 `npm install` 下载前端依赖
 - 只有在你从源码启动或自行重新打包时，才需要下载对应依赖
 
 #### 创建数据库
@@ -66,12 +65,12 @@ server.port=8080
 然后改名为 `application.properties`
 
 #### 运行后端
-- 如果你使用 [.jar](https://github.com/NeusoftIkaros/ikaros-springboot/releases) 文件,直接执行以下命令
+- 如果你使用 [.jar](https://github.com/NeusoftIkaros/ikaros-springboot/releases) 文件，直接在文件存放处执行以下命令
 
 ```bash
 java -jar app.jar --spring.config.location=[application.properties文件路径]
 ```
-- 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-springboot/releases) ,执行以下操作:
+- 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-springboot/releases)，执行以下操作:
 
 将文件复制到 `ikaros-springboot\src\main\resources\` 覆盖原本存在的 ` application.properties` 文件,然后在项目根目录处执行以下命令
 
@@ -79,3 +78,20 @@ java -jar app.jar --spring.config.location=[application.properties文件路径]
 mvn spring-boot:run
 ```
 
+#### 运行前端
+- 如果你使用 [dist](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x) 包，直接在解压后的根目录里执行以下命令
+
+```bash
+npm install -g serve
+serve dist
+```
+
+- 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-vue)，直接在项目根目录处执行以下命令
+
+```bash
+npm run dev
+```
+
+#### 使用项目
+- 如果你通过 `serve` 来使用 dist 包，那么打开浏览器，访问 `http://localhost:3000`
+- 如果你通过 `npm run dev` 命令来访问源码，那么打开浏览器，访问 `http://localhost:5173`
