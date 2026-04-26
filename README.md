@@ -51,7 +51,7 @@ cd NeusoftIkaros
 curl -L -o neusoft_ikaros.sql https://raw.githubusercontent.com/NeusoftIkaros/NeusoftIkaros/main/neusoft_ikaros.sql
 mysql -u root -p < neusoft_ikaros.sql
 ```
-**3. 安装 ollama 并运行所需模型**
+**3. 安装 ollama 并运行虚拟服务器**
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
