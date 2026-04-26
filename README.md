@@ -7,12 +7,12 @@
 > [!NOTE]
 > During the internship, a knowledge base system titled “Neusoft AI Assistant” was developed using a front-end and back-end separation architecture. The system is built with Spring Boot and Vue.js, and uses Element Plus as the UI framework.
 >
-> 在实习期间以“东软AI助手”为主题开发的知识库，采用前后端分离架构实现，基于 SpringBoot 与 Vue.js，采用 Element Plus 作为 UI 框架。
+> 在实习期间以“东软AI助手”为主题开发的知识库，采用**前后端分离架构**实现，基于 SpringBoot 与 Vue.js，采用 Element Plus 作为 UI 框架。
 
 > [!NOTE]
 > The system integrates a local large language model (qwen3:4b) through Ollama, enabling local AI-powered question answering capabilities. It supports user registration and login, session management, and adjustable LLM response tone switching.
 >
-> 通过 ollama 接入本地大模型 qwen3:4b，支持登录注册、会话管理、大模型语气切换及文件导出。
+> 通过 ollama 接入本地大模型 qwen3:4b，支持**登录注册、会话管理、大模型语气切换**及**文件导出**。
 
 > [!TIP]
 > This project is provided as-is and is not actively maintained
@@ -21,11 +21,11 @@
 >
 > Feature requests and non-critical issues are not guaranteed to be responded to
 >
-> 本项目仅按初始状态提供，不保证持续维护
+> 本项目仅按初始状态提供，**不保证持续维护**
 >
 > 仅在出现影响运行的严重问题时可能进行修复
 >
-> 功能建议与一般性问题可能不会被处理
+> 功能建议与一般性问题**可能不会被处理**
 
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.4.x-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -94,9 +94,9 @@ ollama serve
 curl -L -o application.properties.example https://raw.githubusercontent.com/NeusoftIkaros/ikaros-springboot/main/application.properties.example
 ```
 >[!WARNING]
-> 根据本地的实际环境修改配置，重命名文件为 `application.properties`，请格外注意数据库端口号！
+> 根据本地的实际环境修改配置，重命名文件为 `application.properties`
 >
-> 并确保该文件与 `.jar` 文件处于同一目录后再继续运行
+> 并确保**该文件与** `.jar` **文件处于同一目录**后再继续运行
 ```bash
 java -jar ikaros-springboot-0.0.1-SNAPSHOT.jar --spring.config.location=application.properties
 ```
@@ -124,7 +124,7 @@ serve dist
 > [!TIP]
 > 如果你使用 GitHub Release 中已经打包好的后端 `.jar`，通常不需要再单独下载 Maven 依赖
 > 
-> 只有在你从源码启动或自行重新打包时，才需要下载对应依赖
+> **只有在你从源码启动或自行重新打包时，才需要下载对应依赖**
 
 ### 创建数据库
 项目已提供 [neusoft_ikaros.sql](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/neusoft_ikaros.sql)，下载后运行
@@ -165,33 +165,33 @@ server.port=8080
 然后改名为 `application.properties`
 
 ### 运行后端
-- 如果你使用 [.jar](https://github.com/NeusoftIkaros/ikaros-springboot/releases) 文件，直接在文件存放处执行以下命令
+- 如果你使用 [.jar](https://github.com/NeusoftIkaros/ikaros-springboot/releases) 文件，直接在**文件存放处**执行以下命令
 
 ```bash
 java -jar ikaros-springboot-0.0.1-SNAPSHOT.jar --spring.config.location=[application.properties文件路径]
 ```
 - 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-springboot/releases)，执行以下操作:
 
-将文件复制到 `ikaros-springboot\src\main\resources\` 覆盖原本存在的 `application.properties` 文件,然后在项目根目录处执行以下命令
+将文件复制到 `ikaros-springboot\src\main\resources\` 覆盖原本存在的 `application.properties` 文件,然后在**项目根目录处**执行以下命令
 
 ```bash
 mvn spring-boot:run
 ```
 
 > [!IMPORTANT]
-> 依照开发者使用环境，`.jar` 中封装的数据库端口号为 `3307`，所以请务必使用 `application.properties` 文件重新配置数据库端口号
+> 依照开发者使用环境，`.jar` 中封装的数据库端口号为 `3307`，所以**请务必使用** `application.properties` **文件重新配置数据库端口号**
 > 
 > 默认的 `application.properties` 中数据库用户为 `admin`，密码为 `123456`
 
 ### 运行前端
-- 如果你使用 [dist](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x) 包，直接在解压后的根目录处执行以下命令
+- 如果你使用 [dist](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x) 包，直接在**解压后的根目录处**执行以下命令
 
 ```bash
 npm install -g serve
 serve dist
 ```
 
-- 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-vue)，直接在项目根目录处执行以下命令
+- 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-vue)，直接在**项目根目录处**执行以下命令
 
 ```bash
 npm run dev
