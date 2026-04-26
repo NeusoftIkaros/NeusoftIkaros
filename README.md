@@ -13,7 +13,7 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 
 ---
 
-### 🌠 部分演示截图
+### 🖼️ 示例截图(Demo Screenshots)
 
 <p align="center">
   <img src="login.jpg" width="600"/>
@@ -29,14 +29,14 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 
 ---
 
-### 📂 相关仓库与发布页
+### 🔗 相关仓库(Related Repositories)
 - [前端Repo](https://github.com/NeusoftIkaros/ikaros-vue)
 - [前端Releases](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x)
 - [后端Repo](https://github.com/NeusoftIkaros/ikaros-springboot)
 - [后端Releases](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
 - [Modelfile Repo](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
-### 🚀 快速开始
+### ⚙️ 部署指南()
 
 #### 推荐环境要求
 - MySQL 8.x
@@ -126,6 +126,6 @@ npm run dev
 - 如果你通过 `serve` 来使用 dist 包，那么打开浏览器，访问 `http://localhost:3000`
 - 如果你通过 `npm run dev` 命令来直接运行源码，那么打开浏览器，访问 `http://localhost:5173`
 
-### 🔌 接口规范
+### 🔌 接口规范(API Specification)
 参见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md) 
 
