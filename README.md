@@ -50,7 +50,7 @@ mysql -u root -p < neusoft_ikaros.sql
 curl -fsSL https://ollama.com/install.sh | sh
 curl -L -o Modelfile https://raw.githubusercontent.com/NeusoftIkaros/ikaros-modelfile/main/Modelfile
 ollama pull qwen3:4b
-ollama create neusoft-ikaros -f Modelfie
+ollama create neusoft-ikaros -f Modelfile
 ollama serve
 ```
 4. 启动后端
