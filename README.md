@@ -9,7 +9,19 @@ During the internship, a knowledge base system titled “Neusoft AI Assistant”
 
 The system integrates a local large language model (qwen3:4b) through Ollama, enabling local AI-powered question answering capabilities. It supports user registration and login, session management, and adjustable LLM response tone switching.
 
-通过 ollama 接入本地大模型 qwen3:4b，支持登录注册、会话管理及大模型语气切换。
+通过 ollama 接入本地大模型 qwen3:4b，支持登录注册、会话管理、大模型语气切换及文件导出。
+
+---
+
+#### 登录页
+<p align="center">
+  <img src="login.png" width="600"/>
+</p>
+
+#### 聊天页
+<p align="center">
+  <img src="chat.png" width="600"/>
+</p>
 
 ---
 
