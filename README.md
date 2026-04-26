@@ -31,3 +31,6 @@ NeusoftIkaros的主代码仓库。
 ```sql
 mysql -u root -p < [sql文件路径]
 ```
+
+#### 修改后端配置文件
+下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example)
