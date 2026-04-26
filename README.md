@@ -20,6 +20,7 @@ NeusoftIkaros的主要仓库。
 - Node.js 20+
 - npm 10+
 - Maven 3.9+
+- ollama 0.21.0+
 
 说明: 
 - 如果你使用 GitHub Release 中已经打包好的后端 `jar`，通常不需要再单独下载 Maven 依赖
@@ -31,6 +32,26 @@ NeusoftIkaros的主要仓库。
 ```bash
 mysql -u root -p < [sql文件路径]
 ```
+
+#### 约束及运行LLM
+通过ollama下载 `qwen3:4b` 模型
+
+```bash
+ollama pull qwen3:4b
+```
+
+下载 [Modelfile](https://github.com/NeusoftIkaros/ikaros-modelfile/blob/main/Modelfile) 后使用以下命令约束模型
+
+```bash
+ollama create neusoft-ikaros -f [Modelfile文件路径]
+```
+
+然后运行 ollama 虚拟服务
+
+```bash
+ollama serve
+```
+
 
 #### 修改后端配置文件
 下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example) 按本地的实际环境修改以下配置:
@@ -57,3 +78,4 @@ java -jar app.jar --spring.config.location=[application.properties文件路径]
 ```bash
 mvn spring-boot:run
 ```
+
