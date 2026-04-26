@@ -21,16 +21,19 @@ NeusoftIkaros的主代码仓库。
 - npm 10+
 - Maven 3.9+
 
-**说明: **
+说明: 
 - 如果你使用 GitHub Release 中已经打包好的后端 `jar`，通常不需要再单独下载 Maven 依赖
 - 如果你使用 GitHub Release 中已经打包好的前端 `dist`，通常不需要再执行 `npm install` 下载前端依赖
 - 只有在你从源码启动或自行重新打包时，才需要下载对应依赖
 
 #### 创建数据库
+
 项目已提供 [neusoft_ikaros.sql](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/neusoft_ikaros.sql)，下载后运行
 ```sql
 mysql -u root -p < [sql文件路径]
 ```
 
 #### 修改后端配置文件
-下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example)
+
+下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example) 然后:
+- 
