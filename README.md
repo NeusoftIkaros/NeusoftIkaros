@@ -33,11 +33,20 @@
 ---
 
 ## 🔗 相关仓库(Related Repositories)
-- [前端Repo](https://github.com/NeusoftIkaros/ikaros-vue)
-- [前端Releases](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x)
-- [后端Repo](https://github.com/NeusoftIkaros/ikaros-springboot)
-- [后端Releases](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
-- [Modelfile Repo](https://github.com/NeusoftIkaros/ikaros-modelfile)
+### 💻 Frontend
+[![Repo](https://img.shields.io/badge/GitHub-Frontend-blue?logo=github)](https://github.com/NeusoftIkaros/ikaros-vue)
+[![Release](https://img.shields.io/badge/Releases-v1.x-green)](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x)
+
+---
+
+### ⚙️ Backend
+[![Repo](https://img.shields.io/badge/GitHub-Backend-blue?logo=github)](https://github.com/NeusoftIkaros/ikaros-springboot)
+[![Release](https://img.shields.io/badge/Releases-latest-green)](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
+
+---
+
+### 🧠 Model
+[![Repo](https://img.shields.io/badge/Modelfile-Config-orange)](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
 ## 🚀 快速开始(Quick Start)
 **0. 在开始之前，可以新建一个文件夹**
