@@ -13,6 +13,8 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 
 ---
 
+### 🌠 部分演示截图
+
 <p align="center">
   <img src="login.jpg" width="600"/>
   <br/>
