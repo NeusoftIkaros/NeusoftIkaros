@@ -1,7 +1,7 @@
 # NeusoftIkaros
 The main repo for NeusoftIkaros.
 
-NeusoftIkaros的主要仓库。
+NeusoftIkaros 的主要仓库。
 
 During the internship, a knowledge base system titled “Neusoft AI Assistant” was developed using a front-end and back-end separation architecture. The system is built with Spring Boot and Vue.js, and uses Element Plus as the UI framework.
 
