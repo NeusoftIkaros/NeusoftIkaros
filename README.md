@@ -15,7 +15,11 @@
 > 通过 ollama 接入本地大模型 qwen3:4b，支持登录注册、会话管理、大模型语气切换及文件导出。
 
 > [!TIP]
-> 该项目不做任何形式的维护，除非有导致无法运行的严重 bug，否则请勿提交 issue ！
+> 该项目目前仅作为展示用途提供，不保证持续维护
+>
+> 仅在出现影响运行的严重问题时可能进行修复
+>
+> 功能建议与一般性问题可能不会被处理
 
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.4.x-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
