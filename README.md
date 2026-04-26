@@ -17,13 +17,13 @@
 > [!TIP]
 > This project is provided as-is and is not actively maintained
 >
-> Only critical bugs affecting runtime stability may be addressed
+> Only critical bugs affecting runtime stability will be addressed
 >
 > Feature requests and non-critical issues are not guaranteed to be responded to
 >
 > 本项目仅按初始状态提供，**不保证持续维护**
 >
-> 仅在出现影响运行的严重问题时可能进行修复
+> 仅在出现影响运行的严重问题时进行修复
 >
 > 功能建议与一般性问题**可能不会被处理**
 
