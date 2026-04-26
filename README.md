@@ -46,6 +46,7 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 
 > [!TIP]
 > 如果你使用 GitHub Release 中已经打包好的后端 `jar`，通常不需要再单独下载 Maven 依赖
+> 
 > 只有在你从源码启动或自行重新打包时，才需要下载对应依赖
 
 #### 创建数据库
@@ -102,6 +103,7 @@ mvn spring-boot:run
 
 > [!IMPORTANT]
 > `.jar` 中封装的数据库端口号为 `3307` 所以请务必使用 `application.properties` 文件重新配置数据库端口号
+> 
 > 默认的 `application.properties` 中数据库用户为 `admin`，密码为 `123456`
 
 #### 运行前端
