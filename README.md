@@ -105,5 +105,5 @@ npm run dev
 - 如果你通过 `npm run dev` 命令来访问源码，那么打开浏览器，访问 `http://localhost:5173`
 
 ### 🔌 接口规范
-详见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md)所述
+参见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md) 
 
