@@ -94,7 +94,7 @@ ollama serve
 curl -L -o application.properties.example https://raw.githubusercontent.com/NeusoftIkaros/ikaros-springboot/main/application.properties.example
 ```
 >[!WARNING]
-> 根据本地的实际环境修改配置，重命名文件为 `application.properties`
+> 根据本地的实际环境修改配置，重命名文件为 `application.properties`，请格外注意数据库端口号！
 >
 > 并确保该文件与 `.jar` 文件处于同一目录后再继续运行
 ```bash
@@ -179,7 +179,7 @@ mvn spring-boot:run
 ```
 
 > [!IMPORTANT]
-> `.jar` 中封装的数据库端口号为 `3307` 所以请务必使用 `application.properties` 文件重新配置数据库端口号
+> 依照开发者使用环境，`.jar` 中封装的数据库端口号为 `3307`，所以请务必使用 `application.properties` 文件重新配置数据库端口号
 > 
 > 默认的 `application.properties` 中数据库用户为 `admin`，密码为 `123456`
 
