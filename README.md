@@ -36,7 +36,7 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 - [后端Releases](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
 - [Modelfile Repo](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
-### ⚙️ 部署指南()
+### ⚙️ 部署指南(Deployment Guide)
 
 #### 推荐环境要求
 - MySQL 8.x
