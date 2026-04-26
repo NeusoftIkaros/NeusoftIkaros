@@ -122,7 +122,7 @@ serve dist
 - ollama 0.21.0+
 
 > [!TIP]
-> 如果你使用 GitHub Release 中已经打包好的后端 `jar`，通常不需要再单独下载 Maven 依赖
+> 如果你使用 GitHub Release 中已经打包好的后端 `.jar`，通常不需要再单独下载 Maven 依赖
 > 
 > 只有在你从源码启动或自行重新打包时，才需要下载对应依赖
 
