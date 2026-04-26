@@ -34,7 +34,7 @@
 
 ## 🔗 相关仓库(Related Repositories)
 ### 💻 Frontend
-[![FRepo](https://img.shields.io/badge/前端-Repo-blue?logo=vuedotjs&style=flat-square)](https://github.com/NeusoftIkaros/ikaros-vue)
+[![FRepo](https://img.shields.io/badge/前端-Repo-blue?logo=vuedotjs&style=flat-square&logoColor=white)](https://github.com/NeusoftIkaros/ikaros-vue)
 [![FRelease](https://img.shields.io/badge/Releases-v1.x-green)](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x)
 [![BRepo](https://img.shields.io/badge/GitHub-Backend-blue?logo=github)](https://github.com/NeusoftIkaros/ikaros-springboot)
 [![BRelease](https://img.shields.io/badge/Releases-latest-green)](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
