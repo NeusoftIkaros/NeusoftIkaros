@@ -140,7 +140,7 @@ ollama serve
 
 
 ### 修改后端配置文件
-下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example) 按本地的实际环境修改以下配置:
+下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example) 并按本地的实际环境修改以下配置:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/neusoft_ikaros?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
