@@ -116,7 +116,7 @@ npm run dev
 
 #### 使用项目
 - 如果你通过 `serve` 来使用 dist 包，那么打开浏览器，访问 `http://localhost:3000`
-- 如果你通过 `npm run dev` 命令来访问源码，那么打开浏览器，访问 `http://localhost:5173`
+- 如果你通过 `npm run dev` 命令来直接运行源码，那么打开浏览器，访问 `http://localhost:5173`
 
 ### 🔌 接口规范
 参见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md) 
