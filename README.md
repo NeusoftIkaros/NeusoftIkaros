@@ -1,6 +1,8 @@
 # NeusoftIkaros
 The main repo for NeusoftIkaros.
+NeusoftIkaros的主代码仓库。
 
+---
 
 ### 📂 相关仓库与发布页
 - [前端仓库](https://github.com/NeusoftIkaros/ikaros-vue)
