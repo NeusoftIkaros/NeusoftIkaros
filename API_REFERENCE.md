@@ -5,8 +5,6 @@
 - 后端项目：`ikaros-springboot`
 - 默认端口：`8080`
 - 基础地址：`http://localhost:8080`
-- 认证方式：当前未实现 Token / Session 鉴权，主要通过 `userId` 标识用户
-- 返回风格：当前项目未统一封装，存在 `Map`、`String`、`List<Entity>`、文件流几种返回形式
 
 ## 2. 通用返回说明
 
