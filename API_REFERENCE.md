@@ -1,5 +1,7 @@
 # Neusoft Ikaros 接口规范
 
+注: 本文档由 CodeX 自动生成
+
 ## 1. 基本信息
 
 - 后端项目：`ikaros-springboot`
