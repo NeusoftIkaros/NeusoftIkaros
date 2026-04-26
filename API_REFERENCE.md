@@ -484,7 +484,6 @@ DELETE /session/s001?userId=1
 - `qa_record` 对应 `QaRecord`
 - `chat_session` 对应 `ChatSession`
 - `qa_record` 当前使用 `created_at` 作为问答时间字段
-- 初始化脚本已去除代码未使用的 `query_time`
 
 ## 8. 风险提示
 
