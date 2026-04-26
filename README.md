@@ -37,6 +37,12 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 - [Modelfile Repo](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
 ## 🚀 快速开始(Quick Start)
+0. 在开始之前，可以新建一个文件夹
+
+```bash
+mkdir NeusoftIkaros
+cd NeusoftIkaros
+```
 1. 下载对应 Releases( [前端](https://github.com/NeusoftIkaros/ikaros-vue/releases⁠) | [后端](https://github.com/NeusoftIkaros/ikaros-springboot/releases⁠) )并解压
 2. 导入 SQL
 
@@ -55,7 +61,6 @@ ollama serve
 ```
 4. 启动后端
 
-在 `.jar` 文件存放目录处
 ```bash
 curl -L -o application.properties.example https://raw.githubusercontent.com/NeusoftIkaros/ikaros-springboot/main/application.properties.example
 ```
