@@ -18,7 +18,7 @@
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-42B883?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8.x-B73BFE?style=flat-square&logo=vite&logoColor=white)
-![Element Plus](https://img.shields.io/badge/Element%20Plus-2.13.x-409EFF?style=flat-square&logo=github&logoColor=white)
+![Element Plus](https://img.shields.io/badge/Element%20Plus-2.13.x-409EFF?style=flat-square&logo=vue&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-0.21.x-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Qwen3](https://img.shields.io/badge/Qwen3-4B-6741D9?style=flat-square&logo=alibabadotcom&logoColor=white)
