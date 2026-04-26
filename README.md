@@ -37,13 +37,15 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 - [Modelfile Repo](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
 ### 🚀 快速开始(Quick Start)
-1. 下载对应 Releases([前端](https://github.com/NeusoftIkaros/ikaros-vue/releases⁠) | [后端](https://github.com/NeusoftIkaros/ikaros-springboot/releases⁠))并解压
+1. 下载对应 Releases(。[前端](https://github.com/NeusoftIkaros/ikaros-vue/releases⁠) | [后端](https://github.com/NeusoftIkaros/ikaros-springboot/releases⁠) )并解压
 2. 导入 SQL
+
 ```bash
 curl -L -o neusoft_ikaros.sql https://raw.githubusercontent.com/NeusoftIkaros/NeusoftIkaros/main/neusoft_ikaros.sql
 mysql -u root -p < neusoft_ikaros.sql
 ```
 3. 安装 ollama 并运行所需模型
+
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 curl -L -o Modelfile https://raw.githubusercontent.com/NeusoftIkaros/ikaros-modelfile/main/Modelfile
@@ -52,6 +54,7 @@ ollama create neusoft-ikaros -f Modelfie
 ollama serve
 ```
 4. 启动后端
+
 在 `.jar` 文件存放目录处
 ```bash
 curl -L -o application.properties.example https://raw.githubusercontent.com/NeusoftIkaros/ikaros-springboot/main/application.properties.example
@@ -61,12 +64,14 @@ curl -L -o application.properties.example https://raw.githubusercontent.com/Neus
 java -jar ikaros-springboot-0.0.1-SNAPSHOT.jar --spring.config.location=application.properties
 ```
 5. 启动前端
+
 在解压后的根目录处
 ```bash
 npm install -g serve
 serve dist
 ```
 6. 访问项目
+
 打开浏览器，访问 `http://localhost:3000`
 
 ### ⚙️ 部署指南(Deployment Guide)
