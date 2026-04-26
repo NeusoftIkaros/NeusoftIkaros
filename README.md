@@ -203,5 +203,5 @@ npm run dev
 - 如果你通过 `npm run dev` 命令来直接运行源码，那么打开浏览器，访问 `http://localhost:5173`
 
 ## 🔌 接口规范(API Specification)
-参见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md) 
+*参见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md)*
 
