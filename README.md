@@ -27,13 +27,33 @@ NeusoftIkaros的主代码仓库。
 - 只有在你从源码启动或自行重新打包时，才需要下载对应依赖
 
 #### 创建数据库
-
 项目已提供 [neusoft_ikaros.sql](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/neusoft_ikaros.sql)，下载后运行
-```sql
+```bash
 mysql -u root -p < [sql文件路径]
 ```
 
 #### 修改后端配置文件
+下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example) 然后按实际的本地环境修改以下配置:
 
-下载 [application.properties.example](https://github.com/NeusoftIkaros/ikaros-springboot/blob/main/application.properties.example) 然后:
-- 
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/neusoft_ikaros?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+spring.datasource.username=root
+spring.datasource.password=123456
+server.port=8080
+```
+
+然后改名为 `application.properties`
+
+#### 运行后端
+- 如果你使用 [.jar](https://github.com/NeusoftIkaros/ikaros-springboot/releases) 文件,直接执行以下命令
+
+```bash
+java -jar app.jar --spring.config.location=[application.properties文件路径]
+```
+- 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-springboot/releases) ,执行以下操作:
+
+将文件复制到 `ikaros-springboot\src\main\resources\` 覆盖原本存在的 ` application.properties` 文件,然后执行以下命令
+
+```bash
+mvn spring-boot:run
+```
