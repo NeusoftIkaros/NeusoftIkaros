@@ -127,7 +127,8 @@ serve dist
 > **只有在你从源码启动或自行重新打包时，才需要下载对应依赖**
 
 ### 创建数据库
-项目已提供 [neusoft_ikaros.sql](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/neusoft_ikaros.sql)，下载后运行
+本项目已提供 [SQL
+脚本](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/neusoft_ikaros.sql)，下载后运行
 ```bash
 mysql -u root -p < [sql文件路径]
 ```
