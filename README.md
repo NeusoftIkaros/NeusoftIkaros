@@ -43,7 +43,31 @@ The system integrates a local large language model (qwen3:4b) through Ollama, en
 curl -L -o neusoft_ikaros.sql https://raw.githubusercontent.com/NeusoftIkaros/NeusoftIkaros/main/neusoft_ikaros.sql
 mysql -u root -p < neusoft_ikaros.sql
 ```
-
+3. 安装 ollama 并运行所需模型
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+curl -L -o Modelfile https://raw.githubusercontent.com/NeusoftIkaros/ikaros-modelfile/main/Modelfile
+ollama pull qwen3:4b
+ollama create neusoft-ikaros -f Modelfie
+ollama serve
+```
+4. 启动后端
+在 `.jar` 文件存放目录处
+```bash
+curl -L -o application.properties.example https://raw.githubusercontent.com/NeusoftIkaros/ikaros-springboot/main/application.properties.example
+```
+根据本地的实际环境修改配置，改名为 `application.properties`，然后继续运行
+```bash
+java -jar ikaros-springboot-0.0.1-SNAPSHOT.jar --spring.config.location=application.properties
+```
+5. 启动前端
+在解压后的根目录处
+```bash
+npm install -g serve
+serve dist
+```
+6. 访问项目
+打开浏览器，访问 `http://localhost:3000`
 
 ### ⚙️ 部署指南(Deployment Guide)
 
@@ -102,7 +126,7 @@ server.port=8080
 - 如果你使用 [.jar](https://github.com/NeusoftIkaros/ikaros-springboot/releases) 文件，直接在文件存放处执行以下命令
 
 ```bash
-java -jar app.jar --spring.config.location=[application.properties文件路径]
+java -jar ikaros-springboot-0.0.1-SNAPSHOT.jar --spring.config.location=[application.properties文件路径]
 ```
 - 如果你使用 [源码](https://github.com/NeusoftIkaros/ikaros-springboot/releases)，执行以下操作:
 
