@@ -6,11 +6,11 @@ NeusoftIkaros的主要仓库。
 ---
 
 ### 📂 相关仓库与发布页
-- [前端仓库](https://github.com/NeusoftIkaros/ikaros-vue)
-- [前端发行版](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x)
-- [后端仓库](https://github.com/NeusoftIkaros/ikaros-springboot)
-- [后端发行版](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
-- [Modelfile 仓库](https://github.com/NeusoftIkaros/ikaros-modelfile)
+- [前端Repo](https://github.com/NeusoftIkaros/ikaros-vue)
+- [前端Releases](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x)
+- [后端Repo](https://github.com/NeusoftIkaros/ikaros-springboot)
+- [后端Releases](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
+- [Modelfile Repo](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
 ### 🚀 快速开始
 
@@ -79,7 +79,7 @@ mvn spring-boot:run
 ```
 
 #### 运行前端
-- 如果你使用 [dist](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x) 包，直接在解压后的根目录里执行以下命令
+- 如果你使用 [dist](https://github.com/NeusoftIkaros/ikaros-vue/releases/tag/v1.x) 包，直接在解压后的根目录处执行以下命令
 
 ```bash
 npm install -g serve
@@ -95,3 +95,7 @@ npm run dev
 #### 使用项目
 - 如果你通过 `serve` 来使用 dist 包，那么打开浏览器，访问 `http://localhost:3000`
 - 如果你通过 `npm run dev` 命令来访问源码，那么打开浏览器，访问 `http://localhost:5173`
+
+### 🔌 接口规范
+详见本 repo 下的 [API_REFERENCE.md](https://github.com/NeusoftIkaros/NeusoftIkaros/blob/main/API_REFERENCE.md)所述
+
