@@ -37,7 +37,7 @@
 [![FRelease](https://img.shields.io/badge/前端-Releases-green?logo=vuedotjs&style=flat-square&logoColor=white)](https://github.com/NeusoftIkaros/ikaros-vue/releases)
 [![BRepo](https://img.shields.io/badge/后端-Repo-blue?logo=springboot&style=flat-square&logoColor=white)](https://github.com/NeusoftIkaros/ikaros-springboot)
 [![BRelease](https://img.shields.io/badge/后端-Releases-green?logo=springboot&style=flat-square&logoColor=white)](https://github.com/NeusoftIkaros/ikaros-springboot/releases)
-[![Modelfile](https://img.shields.io/badge/Modelfile-Config-orange)](https://github.com/NeusoftIkaros/ikaros-modelfile)
+[![Modelfile](https://img.shields.io/badge/Modelfile-Repo-orange?logo=ollama&style=flat-square&logoColor=white)](https://github.com/NeusoftIkaros/ikaros-modelfile)
 
 ## 🚀 快速开始(Quick Start)
 **0. 在开始之前，可以新建一个文件夹**
