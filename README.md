@@ -15,11 +15,11 @@
 > 通过 ollama 接入本地大模型 qwen3:4b，支持登录注册、会话管理、大模型语气切换及文件导出。
 
 > [!TIP]
-> This project is provided as-is and is not actively maintained.
+> This project is provided as-is and is not actively maintained
 >
-> Only critical bugs affecting runtime stability may be addressed.
+> Only critical bugs affecting runtime stability may be addressed
 >
-> Feature requests and non-critical issues are not guaranteed to be responded to.
+> Feature requests and non-critical issues are not guaranteed to be responded to
 >
 > 本项目仅按初始状态提供，不保证持续维护
 >
