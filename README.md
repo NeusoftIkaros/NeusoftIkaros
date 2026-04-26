@@ -61,7 +61,7 @@
 mkdir NeusoftIkaros
 cd NeusoftIkaros
 ```
-**1. 下载对应 Releases( [前端](https://github.com/NeusoftIkaros/ikaros-vue/releases⁠) | [后端](https://github.com/NeusoftIkaros/ikaros-springboot/releases⁠) )并解压**
+**1. 下载对应 Releases( [前端](https://github.com/NeusoftIkaros/ikaros-vue/releases) | [后端](https://github.com/NeusoftIkaros/ikaros-springboot/releases) )并解压**
 
 **2. 导入 SQL**
 
